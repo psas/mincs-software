@@ -35,7 +35,7 @@ try:
         weight1 = (voltage1 / (sensitivity / 1000)) / excitation_voltage1
         weight2 = (voltage2 / (sensitivity / 1000)) / excitation_voltage2
 
-        Print only if weight is positive
+        # Print only if weight is positive
         if weight1 >= 0:
             print("Weight Reading 1: ", weight1, " lbs")
         if weight2 >= 0:
